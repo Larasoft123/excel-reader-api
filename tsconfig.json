@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-   "target": "ESNext",
+    "target": "ESNext",
     "module": "NodeNext",
     "skipLibCheck": true,
     "outDir": "./dist",
@@ -8,10 +8,15 @@
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "paths": {
-      
+      "@/*": [
+        "./src/*"
+      ]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules"]
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
-
