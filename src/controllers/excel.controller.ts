@@ -1,6 +1,6 @@
 import { type Response, type Request } from "express"
-import {ExcelModel} from "@/src/models/excel.model.js"
-import {CustomError } from "@/src/lib/customError.js"
+import {ExcelModel} from "../models/excel.model.js"
+import {CustomError } from "../lib/customError.js"
 
 
 
