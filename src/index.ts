@@ -1,6 +1,6 @@
 import express from "express"
-import {excelRouter} from "@/routes/excel.ts"
-import {errorMiddleware} from "@/middlewares/error.ts"
+import {excelRouter} from "./routes/excel.js"
+import {errorMiddleware} from "./middlewares/error.js"
 
 
 const app = express()

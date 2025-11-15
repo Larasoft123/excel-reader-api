@@ -1,5 +1,5 @@
 import * as XLSX from 'xlsx';
-import { isNumber } from "../utils/isNumber.ts"
+import { isNumber } from "../utils/isNumber.js"
 
 export class ExcelModel {
 
