@@ -5,7 +5,7 @@ import cors from "cors"
 
 const app = express()
 app.use(express.raw({type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"}))
-app.use(cors)
+app.use(cors())
 const PORT = process.env.PORT ?? 3000
 
 
