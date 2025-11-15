@@ -2,21 +2,15 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "NodeNext",
-    "allowImportingTsExtensions": true,
-    "noEmit": true,
     "skipLibCheck": true,
-    "rootDir": "./src",
-    "outDir": "./dist",
-    "paths": {
-      "@/*": [
-        "./src/*"
-      ]
-    }
+    "outDir": "dist"
   },
-  "include": [
-    "src/**/*"
-  ],
   "exclude": [
     "node_modules"
+  ],
+  "include": [
+    "./*.js",
+    "src/**/*.ts",
+    "test/**/*.ts"
   ]
 }
