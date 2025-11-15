@@ -1,5 +1,5 @@
 import express from "express"
-import {excelRouter} from "@/routes/excel.route.ts"
+import {excelRouter} from "@/routes/excel.ts"
 import {errorMiddleware} from "@/middlewares/error.ts"
 
 
