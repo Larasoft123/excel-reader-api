@@ -2,9 +2,9 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "NodeNext",
-    "skipLibCheck": true,
-    "noEmit": true,
     "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "skipLibCheck": true,
     "rootDir": "./src",
     "outDir": "./dist",
     "paths": {
