@@ -3,10 +3,9 @@
     "target": "ESNext",
     "module": "NodeNext",
     "skipLibCheck": true,
-    "outDir": "./dist",
-    "rootDir": "./src",
     "noEmit": true,
     "allowImportingTsExtensions": true,
+    "rootDir": "./src",
     "paths": {
       "@/*": [
         "./src/*"
