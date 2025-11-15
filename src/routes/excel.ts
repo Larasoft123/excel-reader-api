@@ -1,5 +1,5 @@
 import {Router} from "express"
-import {ExcelController} from "../controllers/excel.controller.js"
+import {ExcelController} from "@/src/controllers/excel.controller.js"
 
 
 
