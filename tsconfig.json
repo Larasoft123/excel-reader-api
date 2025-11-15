@@ -3,7 +3,12 @@
     "target": "ESNext",
     "module": "NodeNext",
     "skipLibCheck": true,
-    "outDir": "dist"
+    "outDir": "dist",
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
   },
   "exclude": [
     "node_modules"
