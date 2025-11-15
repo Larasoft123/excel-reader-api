@@ -1,10 +1,11 @@
 import express from "express"
 import {excelRouter} from "./routes/excel.js"
 import {errorMiddleware} from "./middlewares/error.js"
-
+import cors from "cors"
 
 const app = express()
 app.use(express.raw({type: "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"}))
+app.use(cors)
 const PORT = process.env.PORT ?? 3000
 
 
