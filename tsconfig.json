@@ -6,6 +6,7 @@
     "noEmit": true,
     "allowImportingTsExtensions": true,
     "rootDir": "./src",
+    "outDir": "./dist",
     "paths": {
       "@/*": [
         "./src/*"
