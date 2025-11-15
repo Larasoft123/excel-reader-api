@@ -1,6 +1,6 @@
 import { type Response, type Request } from "express"
-import {ExcelModel} from "../models/excel.model.ts"
-import {CustomError } from "../lib/customError.ts"
+import {ExcelModel} from "@/models/excel.model.ts"
+import {CustomError } from "@/lib/customError.ts"
 
 
 

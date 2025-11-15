@@ -1,5 +1,5 @@
 import {Router} from "express"
-import {ExcelController} from "../controllers/excel.controller.ts"
+import {ExcelController} from "@/controllers/excel.controller.ts"
 
 
 
